@@ -1,4 +1,4 @@
-window.addEventListener("load", function () {
+window.addEventListener("DOMContentLoaded", function () {
     const newsList = document.getElementById("news-list");
     const apiUrl = "https://newsapi.org/v2/top-headlines?country=in";
     const apiKey = "1832f67352924084a5bda22d3dbe432f";
